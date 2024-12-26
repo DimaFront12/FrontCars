@@ -7,6 +7,7 @@ import Cars from "../../../public/Cars.svg"
 import Bell from "../../../public/Bell.svg"
 import Settings from "../../../public/Settings.svg"
 import Logout from "../../../public/Logout.svg"
+import Favorite from "../../../public/Favorite.svg"
 
 export const AsideMenu = () => {
   const location = useLocation();
@@ -31,7 +32,7 @@ export const AsideMenu = () => {
               alt=""
             />
           </Link>
-          <img src="/public/Favorite.svg" alt="" />
+          <img src={Favorite} alt="" />
         </div>
         <div className={styles.utils}>
           <img src={Bell} alt="" />
