@@ -5,7 +5,7 @@ export const CarsList = () => {
   const [cars, setCars] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/cars")
+    fetch("https://backcars.onrender.com/api/cars")
       .then((data) => data.json())
       .then((data) => {
         setCars(data);
