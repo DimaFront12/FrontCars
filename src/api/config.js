@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3000/api"
+export const BASE_URL = "https://backcars.onrender.com/api/"
 
 export const endpoints = {
   auth: `${BASE_URL}/auth`,
