@@ -5,7 +5,7 @@ export const NewsPage = () => {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/posts")
+    fetch("https://backcars.onrender.com/api/posts")
       .then((data) => data.json())
       .then((data) => {
         setNews(data);
