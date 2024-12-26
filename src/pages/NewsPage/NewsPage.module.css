@@ -1,0 +1,29 @@
+.namePage {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cardsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 30px;
+}
+
+.cardNews {
+    width: 70%;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.title {
+    margin-top: 0;
+}
+
+.img {
+    width: 100%;
+}

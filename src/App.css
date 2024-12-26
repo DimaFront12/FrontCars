@@ -1,0 +1,10 @@
+.app {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+
+.mainContentApp {
+    width: 100vw;
+}

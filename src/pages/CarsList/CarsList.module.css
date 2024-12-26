@@ -1,0 +1,66 @@
+.namePage {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.cardsList {
+    width: 1080px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.carCard {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.carName {
+    margin: 0;
+}
+
+.carType {
+    margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.star {
+    width: 13px;
+    height: 13px;
+}
+
+.button {
+    color: #007CFC;
+    border-radius: 20px;
+    background-color: inherit;
+    padding: 10px 0;
+    border: 1px solid #007CFC;
+    font-size: 14px;
+    transition: all linear .2s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #007CFC;
+    color: #fff;
+}
